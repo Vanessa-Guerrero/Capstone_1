@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="WgAtz_9iF92KoYMVH6dx">
-    <mxGraphModel dx="1294" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
             <mxRectangle width="40" height="147" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zJL2j_4uQa3A7hinkZck-48" value="Service_Name VARCHAR (100) NOT NULL, UNIQUE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Price DECIMAL (6,2) NOT NULL, CHECK (Price &amp;gt; 0)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Category VARCHAR (50) NOT NULL, CHECK (Category IN (&#39;Grooming, &#39;Boarding&#39;, &#39;Training&#39;, &#39;Walking&#39;)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="zJL2j_4uQa3A7hinkZck-46">
+        <mxCell id="zJL2j_4uQa3A7hinkZck-48" value="Service_Name VARCHAR (100) NOT NULL, UNIQUE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Price DECIMAL (6,2) NOT NULL, CHECK (Price &amp;gt; 0)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Category VARCHAR (50) NOT NULL, CHECK (Category IN (&#39;Grooming, &#39;Boarding&#39;, &#39;Walking&#39;,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;Training&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="zJL2j_4uQa3A7hinkZck-46">
           <mxGeometry x="40" width="370" height="147" as="geometry">
             <mxRectangle width="370" height="147" as="alternateBounds" />
           </mxGeometry>
