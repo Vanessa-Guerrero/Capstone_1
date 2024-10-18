@@ -6,4 +6,4 @@ I pulled a dataset from WorldPopulationReview.com that detailed in each state ho
 I also used a dataset from google trends showing the popularity score of people in Chicago searching for dog groomers for the past 12 months.
 I used that information to show that there's a need of pet care service business in any state and that Chicago is a good starting place. Both data sets are in this folder.
 
-I'm also storing in this folder my diagram in Drawio to show entity relationships in my model, Sql files that details on how I created my database and the sample data for my database.
+I'm also storing in this folder my presentation slides, diagram in Drawio to show entity relationships in my model, Sql files that details on how I created my database and the sample data for my database.
