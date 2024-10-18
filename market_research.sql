@@ -16,7 +16,7 @@ ORDER BY TotalHouseoldsPerc DESC;
 # What's the average percentage of households in the USA that has pets?
 
 SELECT AVG(TotalHouseoldsPerc) AS AvgTotalHousholdsPerc
-FROM pet_ownership_statistics_us;
+FROM pet_ownership_statistics_usa;
 
 	-- An average of over 58% of housholds in tha USA has atleast one pet!
     
@@ -75,21 +75,9 @@ WHERE DogDevotionScore >= 80
 ORDER BY DogDevotionScore DESC
 LIMIT 10;
 
-	/*From these results, I would choose to expand my market to either Colorado, Virginia, Georgia, or Washington. A high dog devotion score over 80 and over 40% of willingness to spend
+	/*From these results, I would choose to expand my market to either Colorado, Virginia, Georgia, or Alaska. A high dog devotion score over 80 and over 40% of willingness to spend
     over $4k for their dogs health shows that they would actively upkeep their dogs health and care. Therefore, it would show that these states would support having pet care service 
     businesses in the area. */
-  
-  
-/*Let's create a formula that can identify a high index combining the columns of Dog devotion score, % of people who would stay at a job they dislike, and % of people who would spend $4k
-weighted by the % of dog ownership */
-
-SELECT State, 
-       (DogOwnersPerc * (DogDevotionScore + WhoStayedAtAJobTheyDislikedForDogPerc + WhoWouldSpend4kToSaveDogPerc) / 3) AS PetLoyaltyIndex
-FROM pet_ownership_statistics_usa
-ORDER BY PetLoyaltyIndex DESC;
-
-	-- Once again, this confirms that Colorado is a solid choice where theres a high chance of a pet care service business doing well!
-
 
 # Last, but not least let's see the stats for Illinois where I will first be opening the business in comparison to Colorado where I plan to expand the business to:
 
