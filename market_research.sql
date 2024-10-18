@@ -11,7 +11,7 @@ FROM pet_ownership_statistics_usa
 WHERE TotalHouseoldsPerc >= 50
 ORDER BY TotalHouseoldsPerc DESC;
 
-	-- 40 states have over 50% of households that has pets! USA sure loves their pets!
+	-- 40 states have over 50% of households that has pets!
     
 # What's the average percentage of households in the USA that has pets?
 
@@ -88,8 +88,7 @@ WHERE State IN ('Illinois','Colorado');
 
 
 
-
-/* !! Now I'll show a different data set to show that there's a need of dog groomers in Chicago !! */
+/* ---- Now I'll show a different data set to show that there's a need of dog groomers in Chicago ---- */
 
 SELECT * FROM market_research.google_trend_dog_grooming_chicago; 
 
@@ -122,6 +121,7 @@ GROUP BY Year, Month;
 
 /* This shows that the last quarter of the year (October, November, December) has the among the highest average for chicagoans looking for dog groomers, 
 which coincide with the holiday season */
+
 
 # Let's confirm this by showing the average score by quarters
 
