@@ -1,0 +1,11 @@
+Service_ID,Service_Name,Price,Category
+1,"Basic Grooming",50.00,Grooming
+2,"Deluxe Grooming",75.00,Grooming
+3,"Nail Trimming",20.00,Grooming
+4,"Boarding (Overnight)",75.00,Boarding
+5,"Boarding (Weekend)",140.00,Boarding
+6,"Daily Walk",30.00,Walking
+7,"Group Walk",25.00,Walking
+8,"Private Training Session",100.00,Training
+9,"Group Training Class",80.00,Training
+10,"Puppy Training Class",90.00,Training

@@ -1,0 +1,64 @@
+Appointment_ID,Pet_ID,Service_ID,Appointment_Date,Appointment_Time,Status,Notes
+1,1,1,2024-09-01,09:00:00,Completed,NULL
+2,2,3,2024-09-02,10:30:00,Completed,"Trim nails"
+3,3,2,2024-09-03,11:00:00,Completed,NULL
+4,4,4,2024-09-04,08:30:00,Canceled,NULL
+5,5,6,2024-09-05,15:00:00,Completed,"Daily walk at 3 PM"
+6,6,5,2024-09-06,09:00:00,Completed,NULL
+7,7,1,2024-09-07,10:00:00,Canceled,"Grooming appointment"
+8,8,8,2024-09-08,12:00:00,Completed,NULL
+9,9,9,2024-09-10,14:00:00,Completed,"Behavior training session"
+10,10,2,2024-09-10,13:00:00,Completed,NULL
+11,11,3,2024-09-11,11:30:00,Completed,NULL
+12,12,3,2024-09-12,10:15:00,Canceled,NULL
+13,13,4,2024-09-14,09:45:00,Completed,NULL
+14,14,3,2024-09-15,14:30:00,Completed,"Spicy Cat"
+15,15,5,2024-09-15,16:00:00,Completed,NULL
+16,16,4,2024-09-16,08:00:00,Canceled,NULL
+17,17,2,2024-09-17,11:00:00,Completed,NULL
+18,18,8,2024-09-18,10:00:00,Completed,NULL
+19,19,1,2024-09-19,15:30:00,Completed,"Grooming with special shampoo"
+20,20,3,2024-09-20,13:30:00,Completed,NULL
+21,21,5,2024-09-21,14:00:00,Canceled,NULL
+22,22,2,2024-09-22,10:30:00,Completed,"Behaved well"
+23,23,4,2024-09-24,11:15:00,Completed,NULL
+24,24,1,2024-09-25,09:00:00,Completed,"Pet pampering session"
+25,25,8,2024-09-26,13:00:00,Completed,NULL
+26,26,7,2024-09-27,10:00:00,Completed,NULL
+27,27,3,2024-09-27,12:00:00,Completed,NULL
+28,28,5,2024-09-27,14:00:00,Completed,NULL
+29,29,2,2024-09-28,11:00:00,Completed,"Follow up grooming"
+30,29,3,2024-09-28,14:00:00,Canceled,NULL
+31,30,5,2024-09-29,09:00:00,Completed,NULL
+32,30,3,2024-09-29,12:30:00,Completed,NULL
+33,30,2,2024-09-29,15:00:00,Completed,"Nail trimming for fall"
+34,31,4,2024-10-01,10:30:00,Completed,NULL
+35,31,1,2024-10-01,14:00:00,Canceled,NULL
+36,32,6,2024-10-02,13:30:00,Completed,NULL
+37,32,4,2024-10-02,09:30:00,Completed,"Morning grooming"
+38,33,3,2024-10-03,10:00:00,Completed,NULL
+39,33,1,2024-10-03,15:00:00,Canceled,"Afternoon walk"
+40,34,8,2024-10-05,12:00:00,Completed,NULL
+41,35,1,2024-10-06,11:30:00,Completed,"Final grooming before winter"
+42,36,4,2024-10-07,09:00:00,Completed,NULL
+43,37,2,2024-10-08,15:00:00,Canceled,NULL
+44,38,5,2024-10-09,11:00:00,Completed,NULL
+45,39,3,2024-10-10,14:30:00,Completed,NULL
+46,40,6,2024-10-11,09:15:00,Completed,NULL
+47,41,3,2024-10-12,10:45:00,Completed,NULL
+48,42,2,2024-10-13,11:00:00,Canceled,NULL
+49,43,4,2024-10-14,09:30:00,Completed,NULL
+50,44,8,2024-10-14,15:00:00,Completed,NULL
+51,45,3,2024-10-15,12:30:00,Completed,"Nail trimming for fall"
+52,46,1,2024-10-15,09:00:00,Completed,NULL
+53,47,4,2024-10-16,10:00:00,Completed,NULL
+54,48,8,2024-10-16,14:00:00,Completed,NULL
+55,49,3,2024-10-16,15:30:00,Completed,NULL
+56,50,1,2024-10-17,09:00:00,Completed,NULL
+57,48,2,2024-10-17,12:30:00,Completed,NULL
+58,42,8,2024-10-17,15:00:00,Completed,"Behavior training session"
+59,45,3,2024-10-18,08:30:00,Completed,NULL
+60,9,6,2024-10-18,11:15:00,Completed,"30 min walk"
+61,36,1,2024-10-18,14:00:00,Completed,NULL
+62,17,5,2024-10-19,10:00:00,Scheduled,NULL
+63,35,5,2024-10-19,12:00:00,Scheduled,NULL

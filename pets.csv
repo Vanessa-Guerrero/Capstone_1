@@ -1,0 +1,51 @@
+Pet_ID,Customer_ID,Pet_Name,Species,Breed,DOB,Gender,Weight
+1,1,Buddy,Dog,Labrador,2022-05-01,Male,30.50
+2,1,Whiskers,Cat,Siamese,2023-03-15,Female,10.20
+3,2,Rex,Dog,Beagle,2021-07-10,Male,25.00
+4,2,Mittens,Cat,Persian,2020-12-05,Female,12.50
+5,3,Max,Dog,"Golden Retriever",2022-04-20,Male,35.00
+6,3,Luna,Cat,"British Shorthair",2023-08-25,Female,11.00
+7,4,Bella,Dog,Poodle,2021-09-10,Female,20.00
+8,5,Oliver,Dog,Dachshund,2020-11-15,Male,15.00
+9,5,Chloe,Cat,Ragdoll,2021-02-22,Female,9.00
+10,6,Sasha,Dog,Boxer,2022-01-30,Female,28.00
+11,7,Teddy,Dog,Rottweiler,2020-06-18,Male,40.00
+12,8,Simba,Cat,Tabby,2023-02-11,Male,8.00
+13,9,Zoe,Dog,Bulldog,2022-10-05,Female,35.50
+14,10,Daisy,Cat,"Scottish Fold",2021-01-01,Female,10.00
+15,11,Rocky,Dog,Chihuahua,2023-07-14,Male,5.50
+16,12,Coco,Cat,"American Shorthair",2020-05-25,Female,9.50
+17,13,Bailey,Dog,"Shih Tzu",2022-04-02,Male,14.00
+18,14,Lola,Cat,Bengal,2023-05-18,Female,11.75
+19,15,Riley,Dog,"Australian Shepherd",2021-03-23,Female,32.00
+20,16,Charlie,Dog,Pomeranian,2022-09-19,Male,6.00
+21,17,"Oliver T.",Dog,"Yorkshire Terrier",2023-01-08,Male,7.00
+22,18,Gracie,Cat,"Maine Coon",2022-06-11,Female,13.50
+23,19,Lucy,Dog,Boxer,2021-02-16,Female,30.00
+24,20,Jack,Dog,"Great Dane",2022-03-12,Male,60.00
+25,21,Milo,Dog,Schnauzer,2021-11-20,Male,20.00
+26,22,Cooper,Dog,Labrador,2020-12-10,Male,31.00
+27,23,Mocha,Cat,Calico,2023-04-23,Female,8.50
+28,24,Sammy,Dog,"Cocker Spaniel",2021-05-17,Male,25.50
+29,25,Nina,Dog,Husky,2022-08-30,Female,45.00
+30,26,Tango,Cat,Sphynx,2020-09-12,Male,9.00
+31,27,Scout,Dog,Doberman,2023-06-19,Male,50.00
+32,28,Jasper,Cat,"Exotic Shorthair",2021-03-10,Male,10.00
+33,29,Sandy,Dog,"Cavalier King Charles",2022-04-14,Female,15.50
+34,30,Pepper,Cat,Shorthair,2021-07-29,Female,8.75
+35,31,Charlie,Dog,Beagle,2020-12-30,Male,25.00
+36,32,Zara,Cat,Burmese,2023-03-12,Female,7.25
+37,33,Buster,Dog,Chihuahua,2021-10-22,Male,6.50
+38,34,Missy,Dog,"Basset Hound",2020-11-05,Female,28.00
+39,35,Bella,Cat,Sphynx,2022-09-25,Female,9.80
+40,1,Lucky,Dog,"Pit Bull",2023-02-14,Male,45.00
+41,2,Fluffy,Cat,Ragdoll,2022-10-30,Female,10.50
+42,3,Cooper,Dog,Bulldog,2020-08-10,Male,38.00
+43,4,Tiger,Cat,Persian,2021-06-15,Male,12.00
+44,5,Rocky,Dog,Poodle,2022-01-10,Male,32.00
+45,6,Tina,Cat,Siamese,2023-09-01,Female,9.50
+46,7,Duke,Dog,Beagle,2022-03-25,Male,24.00
+47,8,Cleo,Cat,"Exotic Shorthair",2021-04-12,Female,11.00
+48,9,Benji,Dog,Dachshund,2023-06-22,Male,15.50
+49,10,Rosie,Cat,Persian,2021-10-02,Female,12.75
+50,11,Teddy,Dog,Chihuahua,2022-12-15,Male,5.00

@@ -36,8 +36,8 @@ CREATE TABLE Pets (
 CREATE TABLE Services (
     Service_ID INT PRIMARY KEY AUTO_INCREMENT,
     Service_Name VARCHAR(150) NOT NULL UNIQUE,
-    Price DECIMAL(10,2) NOT NULL CHECK (Price > 0), -- Checks that there are no negative prices
-    Category VARCHAR(50) NOT NULL CHECK (Category IN ('Grooming', 'Boarding', 'Walking', 'Training'))
+    Price DECIMAL(10,2) NOT NULL CHECK (Price > 0), -- Ensuring no negative prices
+    Category VARCHAR(50) NOT NULL CHECK (Category IN ('Grooming', 'Boarding', 'Walking', 'Training')) -- Restrict categories to specific types
 );
 
 # Creating Appointments table
@@ -49,8 +49,8 @@ CREATE TABLE Appointments (
     Appointment_Date DATE NOT NULL,
     Appointment_Time TIME NOT NULL,
     Status VARCHAR(20) NOT NULL DEFAULT 'Scheduled' CHECK (Status IN ('Scheduled', 'Completed', 'Canceled')), -- Added a default so all appts get added as scheduled, it can be updated later
-    Notes TEXT, 
+    Notes TEXT, -- Optional notes field
     FOREIGN KEY (Pet_ID) REFERENCES Pets(Pet_ID) ON DELETE RESTRICT ON UPDATE CASCADE,
     FOREIGN KEY (Service_ID) REFERENCES Services(Service_ID) ON DELETE RESTRICT ON UPDATE CASCADE,
-    INDEX Appointment_Search (Appointment_Date, Pet_ID)  -- Index on Appointment Date and Pet ID for faster queriespet_ownership_statistics_usa
+    INDEX Appointment_Search (Appointment_Date, Pet_ID)  -- Index to improve search performance on appointment dates
 );
